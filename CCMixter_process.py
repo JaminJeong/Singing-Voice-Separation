@@ -4,7 +4,7 @@ from librosa import load
 import os
 from util import SaveSpectrogram
 
-data_dir = '/data2/HyundaiPlant/DSD100/'
+data_dir = './data/DSD100/'
 mix_dir = os.path.join(data_dir, "Mixtures/Dev")
 vocal_inst_dir = os.path.join(data_dir, "Sources/Dev")
 
