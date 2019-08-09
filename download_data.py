@@ -29,3 +29,5 @@ if not os.path.isdir(DSD100_dir):
     download_unzip(DSD100_url, data_dir)
 if not os.path.isdir(DSD100subset):
     download_unzip(DSD100subset_url, data_dir)
+else:
+    print("already downlaoded!!")
