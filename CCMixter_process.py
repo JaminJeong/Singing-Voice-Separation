@@ -3,10 +3,14 @@ from librosa.util import find_files
 from librosa import load
 import os
 from util import SaveSpectrogram
+from input_parameter import get_args
 
-data_dir = './data/DSD100/'
-mix_dir = os.path.join(data_dir, "Mixtures/Dev")
-vocal_inst_dir = os.path.join(data_dir, "Sources/Dev")
+args = get_args()
+DSD100_dir = os.path.join(args.DATADIR, 'DSD100')
+assert os.path.isdir(DSD100_dir)
+
+mix_dir = os.path.join(DSD100_dir, "Mixtures/Dev")
+vocal_inst_dir = os.path.join(DSD100_dir, "Sources/Dev")
 
 # Save Spectrogram 
 def CCMixter() : 
