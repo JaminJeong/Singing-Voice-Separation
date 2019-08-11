@@ -27,7 +27,10 @@ DSD100subset = os.path.join(data_dir, 'DSD100subset')
 
 if not os.path.isdir(DSD100_dir):
     download_unzip(DSD100_url, data_dir)
+else:
+    print("DSD100 already downlaoded!!")
+
 if not os.path.isdir(DSD100subset):
     download_unzip(DSD100subset_url, data_dir)
 else:
-    print("already downlaoded!!")
+    print("DSD100subset already downlaoded!!")

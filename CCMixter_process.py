@@ -16,8 +16,8 @@ vocal_inst_dir = os.path.join(DSD100_dir, "Sources/Dev")
 def CCMixter() : 
     '''
     mix : original wav file
-    source_1 : inst wav file 
-    source_2 : vocal wac file 
+    inst : inst wav file
+    vocal : vocal wac file
     '''
     Audiolist = os.listdir(vocal_inst_dir)
     print("Audiolist : ", Audiolist)
