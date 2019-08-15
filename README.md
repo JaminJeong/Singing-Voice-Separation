@@ -7,6 +7,13 @@ This is an implementation of U-Net for vocal separation with tensorflow
 - tensorflow==1.13.0
 - python==3.6.5
 
+## Docker Configuration
+
+```bash
+$bash build_docker.sh
+$bash start_docker.sh
+```
+
 ## Download Dataset
 I download [dsd100](https://sigsep.github.io/datasets/dsd100.html) dataset.
 <pre><code>$ python download_data.py --DATADIR ./data </code></pre>
