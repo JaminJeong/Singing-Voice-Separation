@@ -10,8 +10,8 @@ This is an implementation of U-Net for vocal separation with tensorflow
 ## Docker Configuration
 
 ```bash
-$bash build_docker.sh
-$bash start_docker.sh
+$ bash build_docker.sh
+$ bash start_docker.sh
 ```
 
 ## Download Dataset
