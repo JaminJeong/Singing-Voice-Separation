@@ -37,3 +37,7 @@ Andreas Jansson, et al. SINGING VOICE SEPARATION WITH DEEP U-NET CONVOLUTIONAL N
 
 ## Original Implimentation
 * https://github.com/Jeongseungwoo/Singing-Voice-Separation
+
+## To Do List
+* convert wav files to mp3 files
+* make tfrecord format files
