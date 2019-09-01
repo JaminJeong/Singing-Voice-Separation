@@ -3,6 +3,7 @@ ARG VERSION
 FROM tensorflow/tensorflow:$VERSION
 
 RUN apt update && apt install -y vim git wget libsndfile1
+RUN apt install -y libav-tools 
 
 RUN pip3 install -U pip
 
